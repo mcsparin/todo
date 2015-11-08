@@ -14,3 +14,7 @@
  *= require_self
  *= require font-awesome
  */
+
+.navbar .fa{
+	margin-right: 5px;
+}

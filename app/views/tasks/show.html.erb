@@ -1,14 +1,9 @@
+
+<div class="row">
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @task.content %>
-</p>
-
-<p>
-  <strong>State:</strong>
-  <%= @task.state %>
-</p>
-
+	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+		<%=render @task%>	
+	</div>
+</div>
 <%= link_to 'Edit', edit_task_path(@task) %> |
 <%= link_to 'Back', tasks_path %>
